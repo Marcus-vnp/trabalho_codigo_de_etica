@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#025E73, #01261C, #0F594C);
+    background-position: center;
+    background-size: cover;
+}
+.principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.principal h2{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.principal p{
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
